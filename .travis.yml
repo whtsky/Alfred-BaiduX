@@ -5,6 +5,7 @@ deploy:
   api_key:
     secure: jVlol4KhuxfsThh+njWfctsihPF/ORLIOSwC4QkA26U731yZHTo+qdI1HU08IvIgaqKcln0HmsSJpFko3hgQliMZVT3C+uNwdGA/hlT+l5rmKKjl2/v52v8pNVKaR1dBMWvtsy1BiSlYG+ZQC9kXW3wZUJgnKfCUS+rrdxHFB/SKRiUxNKInlQ+x7XxI2ZWqBZyQHfiQKxsBCUEIfALYm11AoMX8TdMast5iIcZbl+Jz+wUKMiVAxxGHn92yYQ8OwfZc2uoFSh2ZvRTPX1qIqDQrivjmmt4O3ZYj4mBBp7IqjFrSGGLfZw6r7ods1KuWz/nbJ9Mdr+GxHjlFdXPHkjOhDVk0JQpRz8OXS+DEYGS5y0pZDmtXJsw04poYfWXK3GFFIfwDxE/ali9MDQ2HrwhBQyzbbx6sQEB3Kfe/3qxil/yUZGbuegacbUHzsDQw+b+zEpkfh/LfjANY8PpuAfg5bSoI9zTI5DnyVs4XK2CIh1Uu3GA6mwNT0jrBtTj4KSj7gOR39KUh7J8CbE9AS9bxzf2uhuIjRHaNRKhSusEcByjupU/ghTKD4cc0pj7Wp1NbpYDvfqM8Tuu72D1eKXSbnL1bZ9rpMQQ2PG3uNDyA6CTaqcTKnKZmdAbsV0jp9WEMX1edLeQiIPACWeJ+JhxRxdHUshKXu7ko0USDkuo=
   file: baidux.alfredworkflow
+  skip_cleanup: true
   on:
     repo: whtsky/Alfred-BaiduX
     tags: true
