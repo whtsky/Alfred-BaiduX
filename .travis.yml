@@ -1,5 +1,5 @@
 language: python
-script: cd src && zip ../baidux.alfredworkflow *
+script: cd src && zip baidux.alfredworkflow *
 deploy:
   provider: releases
   api_key:
